@@ -18,10 +18,15 @@ Calculate root mean squared error (RMSE): The RMSE is a commonly used metric to 
 Overall, the described method is a machine learning model that predicts a numerical rating based on a set of input features which uses model based recommendation sysytem. The XGBoost algorithm is used with hyperparameters tuned to optimize performance, and the model's performance is evaluated using the error distribution and RMSE.
 
 Error Distribution:
+
 >=0 and <1: 102319
+
 >=1 and <2: 32818
+
 >=2 and <3: 6093
+
 >=3 and <4: 812
+
 >=4: 2
 
 RMSE:
